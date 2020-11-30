@@ -1,0 +1,76 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 32px;
+  color: #ff9234;
+}
+
+h1:hover{
+color: #d92027;
+}
+
+h2{
+  margin: 30px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 32px;
+  color: #ff9234;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #ffcd3c;
+  font-family: 'Press Start 2P', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#footer {
+  text-align: center;
+}
+
+.button3 {
+  margin: 5% 5px 1% 1%;
+  color: #35d0ba;
+}
+
+.button3:hover{
+  color: #ffcd3c;
+}
+
+.copyright{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+}
+
+/*meqdia quesry*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-title {
+    position: static;
+
+  }
+}
